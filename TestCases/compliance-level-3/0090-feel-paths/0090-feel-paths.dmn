@@ -42,5 +42,14 @@
         </literalExpression>
     </decision>
 
+    <decision name="non_exsting_member_001" id="_non_existing_member_001">
+        <variable name="non_exsting_member_001"/>
+        <literalExpression>
+            <text>
+                { a: 1 }.b
+            </text>
+        </literalExpression>
+    </decision>
+
 </definitions>
 

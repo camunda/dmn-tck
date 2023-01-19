@@ -44,4 +44,12 @@
         </resultNode>
     </testCase>
 
+    <testCase id="non_existing_member_001">
+        <description>Test non-existing member access</description>
+        <resultNode name="non_existing_member_001" type="decision">
+            <expected>
+                <value xsi:nil="true"/>
+            </expected>
+        </resultNode>
+    </testCase>
 </testCases>
